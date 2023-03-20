@@ -12,7 +12,10 @@
         android:theme="@style/Theme.TeLoVendo"
         tools:targetApi="31">
         <activity
-            android:name=".MainSu"
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
