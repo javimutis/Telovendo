@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#101010"
-    tools:context=".MainActivity3">
+    android:background="@drawable/f4"
+        tools:context=".MainActivity3">
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline101"
         android:layout_width="wrap_content"
@@ -13,7 +13,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="83dp"
         app:layout_constraintGuide_percent="0.04"
-        />
+        tools:ignore="DuplicateIds" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline102"
@@ -223,21 +223,6 @@
         app:layout_constraintStart_toStartOf="@+id/guideline101"
         app:srcCompat="@drawable/dhalia" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="210dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="60dp"
-        android:text="Dahlia Gigante"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline206"
-        app:layout_constraintEnd_toStartOf="@+id/guideline104"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline102"
-        app:layout_constraintTop_toTopOf="@+id/guideline205"
-        app:layout_constraintVertical_bias="0.055" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="165dp"
@@ -349,32 +334,6 @@
         app:layout_constraintGuide_begin="83dp"
         app:layout_constraintGuide_percent="0.90" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="292dp"
-        android:layout_height="304dp"
-        android:layout_marginBottom="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline205"
-        app:layout_constraintEnd_toStartOf="@+id/guideline105"
-        app:layout_constraintHorizontal_bias="0.379"
-        app:layout_constraintStart_toStartOf="@+id/guideline101"
-        app:srcCompat="@drawable/dhalia" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="210dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="60dp"
-        android:text="Dahlia Gigante"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline206"
-        app:layout_constraintEnd_toStartOf="@+id/guideline104"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline102"
-        app:layout_constraintTop_toTopOf="@+id/guideline205"
-        app:layout_constraintVertical_bias="0.055" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="165dp"
@@ -394,7 +353,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="83dp"
+        app:layout_constraintGuide_begin="1dp"
         app:layout_constraintGuide_percent="0.04" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -486,17 +445,6 @@
         app:layout_constraintGuide_begin="83dp"
         app:layout_constraintGuide_percent="0.90" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="292dp"
-        android:layout_height="304dp"
-        android:layout_marginBottom="92dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline205"
-        app:layout_constraintEnd_toStartOf="@+id/guideline105"
-        app:layout_constraintHorizontal_bias="0.356"
-        app:layout_constraintStart_toStartOf="@+id/guideline101"
-        app:srcCompat="@drawable/dhalia" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="210dp"
@@ -508,9 +456,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline205"
         app:layout_constraintEnd_toStartOf="@+id/guideline104"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline102"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintStart_toStartOf="@+id/guideline102" />
 
     <TextView
         android:id="@+id/textView4"
@@ -540,21 +486,6 @@
         app:layout_constraintStart_toStartOf="@+id/guideline102"
         app:layout_constraintTop_toTopOf="@+id/guideline205"
         app:layout_constraintVertical_bias="0.613" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="210dp"
-        android:layout_height="38dp"
-        android:justificationMode="inter_word"
-        android:text="Ramo de Dahlia Gigante con maceta plástica"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline206"
-        app:layout_constraintEnd_toStartOf="@+id/guideline104"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline102"
-        app:layout_constraintTop_toTopOf="@+id/guideline205"
-        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button"
