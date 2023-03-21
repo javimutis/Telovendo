@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Te lo vendo</string>
+    <string name="textView_text">Te lo vendo</string>
+    <string name="buttonIngreso">Ingresar</string>
+    <string name="imageView_description">Dalia</string>
+    <string name="hm_card_landscape_content">Dalia</string>
 </resources>
