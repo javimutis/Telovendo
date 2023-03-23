@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/floresHome">
+    <fragment
+        android:id="@+id/floresHome"
+        android:name="com.example.telovendo.activities.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_floresFragment"
+            app:destination="@id/floresFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/floresFragment"
+        android:name="com.example.telovendo.activities.FloresFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_flores">
+        <action
+
+            android:id="@+id/action_floresFragment_to_floresDetailFragment"
+            app:destination="@id/floresDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/floresDetailFragment"
+
+        android:name="com.example.telovendo.activities.FloresFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_flores_detail">
+        <argument
+            android:name="floresName"
+            android:defaultValue="None"
+            app:argType="string" />
+    </fragment>
+</navigation>

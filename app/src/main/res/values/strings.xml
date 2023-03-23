@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Te lo vendo</string>
-    <string name="textView_text">Te lo vendo</string>
-    <string name="buttonIngreso">Ingresar</string>
+    <string name="textView_text">Bienvenido a Te lo Vendo</string>
+    <string name="buttonIngreso">Lista de productos</string>
     <string name="imageView_description">Dalia</string>
     <string name="hm_card_landscape_content">Dalia</string>
+    <string name="info_button_text">Informacion Flores</string>
+    <string name="detalles_flores_text">Info info info info info info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info
+        info info info info info info info info info info info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
